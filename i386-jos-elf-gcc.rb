@@ -1,7 +1,7 @@
 class I386JosElfGcc < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
   url "http://ftpmirror.gnu.org/gcc/gcc-4.6.1/gcc-core-4.6.1.tar.bz2"
-  sha256 "9b766705f051ffb7321de58f247688b0ae661b98"
+  sha256 "0bbb8f754a31f29013f6e9ad4c755d92bb0f154a665c4b623e86ae7174d98e33"
 
   depends_on 'gmp'
   depends_on 'libmpc'
