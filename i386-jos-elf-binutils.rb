@@ -11,7 +11,7 @@ class I386JosElfBinutils < Formula
     system "make"
     system "make", "install"
     # avoid conflict with gdb
-    if Formula["i386-jos-elf-gdb"].installed?
+    if Formula["i386-jos-elf-gdb"].any_version_installed?
       rm_r share/"info"
       rm_r lib
     end
